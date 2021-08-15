@@ -10,8 +10,8 @@
     <title>Home</title>
     <link rel="stylesheet" href="{% static 'css/nicepage.css' %}" media="screen">
     <link rel="stylesheet" href="{% static 'css/Home.css' %}" media="screen">
-    <script class="u-script" type="text/javascript" src="static/js/jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="static/js/nicepage.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/jquery.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/nicepage.js' %}" defer=""></script>
     <meta name="generator" content="Nicepage 3.22.0, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
@@ -19,7 +19,7 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "",
-		"logo": "static/images/2daa5d62c3888d71d8ffad18cff891a8179e7f71988c6bf55d4cc5f20534aa1d2e18bc7c5a10465cb2e495dd6dd6eb8c684b8d752bef4533d7485f_1280.png",
+		"logo": "{% static 'images/2daa5d62c3888d71d8ffad18cff891a8179e7f71988c6bf55d4cc5f20534aa1d2e18bc7c5a10465cb2e495dd6dd6eb8c684b8d752bef4533d7485f_1280.png' %}",
 		"sameAs": [
 				"https://facebook.com/name",
 				"https://twitter.com/name",
@@ -37,7 +37,7 @@
 </head>
 <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-2b51"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="1280" data-image-height="1280">
-            <img src="static/images/2daa5d62c3888d71d8ffad18cff891a8179e7f71988c6bf55d4cc5f20534aa1d2e18bc7c5a10465cb2e495dd6dd6eb8c684b8d752bef4533d7485f_1280.png" class="u-logo-image u-logo-image-1">
+            <img src="{% static 'images/2daa5d62c3888d71d8ffad18cff891a8179e7f71988c6bf55d4cc5f20534aa1d2e18bc7c5a10465cb2e495dd6dd6eb8c684b8d752bef4533d7485f_1280.png" class="u-logo-image u-logo-image-1' %}">
         </a>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
             <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
@@ -93,17 +93,17 @@
             <div class="u-carousel-inner u-gallery-inner" role="listbox">
                 <div class="u-active u-carousel-item u-effect-fade u-gallery-item u-carousel-item-1">
                     <div class="u-back-slide" data-image-width="1280" data-image-height="831">
-                        <img class="u-back-image u-expanded" src="static/images/a3558570603ec4664423a464c91ed21a6617a670f4f91f377f6386d63fe81a5195af71e06207f1706ab8441dcef4fa98c0ebdcd7b879a5cc918904_1280.jpg">
+                        <img class="u-back-image u-expanded" src="{% static 'images/a3558570603ec4664423a464c91ed21a6617a670f4f91f377f6386d63fe81a5195af71e06207f1706ab8441dcef4fa98c0ebdcd7b879a5cc918904_1280.jpg' %}">
                     </div>
                 </div>
                 <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-2">
                     <div class="u-back-slide" data-image-width="1280" data-image-height="720">
-                        <img class="u-back-image u-expanded" src="static/images/788439f0ac5196777e2578d2fdf32d5289b79c4bc17db3c410471338e88b9a2d2de8201f6476057eff92de010548a7423c22acbadfa8b3659d2e7d_1280.jpg">
+                        <img class="u-back-image u-expanded" src="{% static 'images/788439f0ac5196777e2578d2fdf32d5289b79c4bc17db3c410471338e88b9a2d2de8201f6476057eff92de010548a7423c22acbadfa8b3659d2e7d_1280.jpg' %}">
                     </div>  
                 </div>
                 <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-3" data-image-width="1280" data-image-height="720">
                     <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="static/images/918bbaebb8bb79dda42a6999aeedb27471119587fb3f0593e37392a5b276804cc9ab6c118ec99474ca7bc8aa1d58bb17fe0681627043c5b4104d5c_1280.jpg">
+                        <img class="u-back-image u-expanded" src="{% static 'images/918bbaebb8bb79dda42a6999aeedb27471119587fb3f0593e37392a5b276804cc9ab6c118ec99474ca7bc8aa1d58bb17fe0681627043c5b4104d5c_1280.jpg' %}">
                     </div>
                     <style data-mode="XL"></style>
                     <style data-mode="LG"></style>
@@ -172,19 +172,19 @@
             <div class="u-layout-row">
               <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-1">
                 <div class="u-container-layout u-container-layout-1">
-                  <img class="u-image u-image-round u-radius-20 u-image-1" src="static/images/a3558570603ec4664423a464c91ed21a6617a670f4f91f377f6386d63fe81a5195af71e06207f1706ab8441dcef4fa98c0ebdcd7b879a5cc918904_12802.jpg" data-image-width="1280" data-image-height="831">
+                  <img class="u-image u-image-round u-radius-20 u-image-1" src="{% static 'images/a3558570603ec4664423a464c91ed21a6617a670f4f91f377f6386d63fe81a5195af71e06207f1706ab8441dcef4fa98c0ebdcd7b879a5cc918904_12802.jpg'%}" data-image-width="1280" data-image-height="831">
                   <p class="u-align-center u-text u-text-default u-text-white u-text-2">BANKING &amp; FINANCIAL</p>
                 </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-size-20 u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
-                  <img class="u-image u-image-round u-radius-20 u-image-2" src="static/images/23799fdb096dc09a74d233f8552d2e51017a5ce7c8b3c1a54812f8010c0f161070ea5f3c44d16a157f6a8995587456b4a06a1fb4978641dc632d19_12801.jpg" alt="" data-image-width="1280" data-image-height="931">
+                  <img class="u-image u-image-round u-radius-20 u-image-2" src="{% static 'images/23799fdb096dc09a74d233f8552d2e51017a5ce7c8b3c1a54812f8010c0f161070ea5f3c44d16a157f6a8995587456b4a06a1fb4978641dc632d19_12801.jpg'%}" alt="" data-image-width="1280" data-image-height="931">
                   <p class="u-text u-text-default u-text-white u-text-3">TECH &amp; TRANSFORMATION</p>
                 </div>
               </div>
               <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-3">
                 <div class="u-container-layout u-container-layout-3">
-                  <img class="u-image u-image-round u-radius-20 u-image-3" src="static/images/788439f0ac5196777e2578d2fdf32d5289b79c4bc17db3c410471338e88b9a2d2de8201f6476057eff92de010548a7423c22acbadfa8b3659d2e7d_12802.jpg" alt="" data-image-width="1280" data-image-height="720">
+                  <img class="u-image u-image-round u-radius-20 u-image-3" src="{% static 'images/788439f0ac5196777e2578d2fdf32d5289b79c4bc17db3c410471338e88b9a2d2de8201f6476057eff92de010548a7423c22acbadfa8b3659d2e7d_12802.jpg'%}" alt="" data-image-width="1280" data-image-height="720">
                   <p class="u-align-center u-text u-text-default u-text-white u-text-4">HUMAN RESOURCE</p>
                 </div>
               </div>
@@ -465,13 +465,13 @@
                 <div class="u-layout-col">
                   <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
                     <div class="u-container-layout u-container-layout-2">
-                      <img class="u-image u-image-round u-radius-10 u-image-2" src="static/images/a3558570603ec4664423a464c91ed21a6617a670f4f91f377f6386d63fe81a5195af71e06207f1706ab8441dcef4fa98c0ebdcd7b879a5cc918904_12804.jpg" alt="" data-image-width="1280" data-image-height="831">
+                      <img class="u-image u-image-round u-radius-10 u-image-2" src="{% static 'images/a3558570603ec4664423a464c91ed21a6617a670f4f91f377f6386d63fe81a5195af71e06207f1706ab8441dcef4fa98c0ebdcd7b879a5cc918904_12804.jpg'%}" alt="" data-image-width="1280" data-image-height="831">
                       <p class="u-text u-text-2">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
                     </div>
                   </div>
                   <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-3">
                     <div class="u-container-layout u-container-layout-3">
-                      <img class="u-image u-image-round u-radius-10 u-image-3" src="static/images/23799fdb096dc09a74d233f8552d2e51017a5ce7c8b3c1a54812f8010c0f161070ea5f3c44d16a157f6a8995587456b4a06a1fb4978641dc632d19_12802.jpg" alt="" data-image-width="1280" data-image-height="931">
+                      <img class="u-image u-image-round u-radius-10 u-image-3" src="{% static 'images/23799fdb096dc09a74d233f8552d2e51017a5ce7c8b3c1a54812f8010c0f161070ea5f3c44d16a157f6a8995587456b4a06a1fb4978641dc632d19_12802.jpg' %}" alt="" data-image-width="1280" data-image-height="931">
                       <p class="u-text u-text-3">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
                     </div>
                   </div>
@@ -484,7 +484,7 @@
       </div>
     </section>
     <section class="u-clearfix u-section-5" id="sec-196b">
-      <img class="u-expanded-width u-image u-image-1" src="static/images/a3558570603ec4664423a464c91ed21a6617a670f4f91f377f6386d63fe81a5195af71e06207f1706ab8441dcef4fa98c0ebdcd7b879a5cc918904_12805.jpg" data-image-width="1280" data-image-height="831">
+      <img class="u-expanded-width u-image u-image-1" src="{% static 'images/a3558570603ec4664423a464c91ed21a6617a670f4f91f377f6386d63fe81a5195af71e06207f1706ab8441dcef4fa98c0ebdcd7b879a5cc918904_12805.jpg'%}" data-image-width="1280" data-image-height="831">
       <p class="u-align-center u-text u-text-default u-text-white u-text-1">
         <span style="font-weight: 700; font-size: 2.0625rem;">Our clients speaks for itself.</span>
         <br>Since our earliest days, we've represented everything from start-ups<br>to Fortune 500 companies with that same partnership approach
@@ -493,19 +493,19 @@
         <div class="u-gallery-inner"><div class="u-effect-fade u-gallery-item u-gallery-item-1"><div class="u-back-slide"><img class="u-back-image" src="images/default-image.jpg">
 </div><div class="u-over-slide u-shading u-over-slide-1"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-2"><div class="u-back-slide"><img class="u-back-image" src="static/images/default-image.jpg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-2"><div class="u-back-slide"><img class="u-back-image" src="{% static 'images/default-image.jpg'%}">
 </div><div class="u-over-slide u-shading u-over-slide-2"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-3"><div class="u-back-slide"><img class="u-back-image" src="static/images/default-image.jpg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-3"><div class="u-back-slide"><img class="u-back-image" src="{% static 'images/default-image.jpg'%}">
 </div><div class="u-over-slide u-shading u-over-slide-3"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-4"><div class="u-back-slide"><img class="u-back-image" src="static/images/default-image.jpg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-4"><div class="u-back-slide"><img class="u-back-image" src="{% static 'images/default-image.jpg'%}">
 </div><div class="u-over-slide u-shading u-over-slide-4"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-5"><div class="u-back-slide"><img class="u-back-image" src="static/images/default-image.jpg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-5"><div class="u-back-slide"><img class="u-back-image" src="{% static 'images/default-image.jpg'%}">
 </div><div class="u-over-slide u-shading u-over-slide-5"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-6"><div class="u-back-slide"><img class="u-back-image" src="static/images/default-image.jpg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-6"><div class="u-back-slide"><img class="u-back-image" src="{% static 'images/default-image.jpg'%}">
 </div><div class="u-over-slide u-shading u-over-slide-6"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
 </div></div>
